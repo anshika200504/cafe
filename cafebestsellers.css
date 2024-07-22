@@ -1,0 +1,86 @@
+* {  
+    margin: 0;  
+    padding: 0;  
+    box-sizing: border-box;  
+  }  
+  
+  body {  
+    position: relative;  
+    font-family: Arial, sans-serif;  
+    line-height: 1.6;  
+    color: #333;  
+    /* background-color: rgb(200, 245, 248);   */
+    background-image: radial-gradient(#362417, #dec5bb, #f1dabf, #fffbff, #7a797c); 
+  }  
+  
+
+header{
+    background-color: black;
+    height: 100px;
+    display: flex;
+}
+#hello a{
+    text-decoration: none;
+    padding: 20px;
+    color: #f9b626;
+    
+}
+#hello{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 40px 0px 40px 600px;
+    /* font-size: large; */  
+    text-decoration: none;  
+    text-transform: uppercase;  
+    font-size: 16px;
+    text-align:right;
+    width: 80;  
+    margin: auto; 
+ 
+    /* margin left: 100px; */
+}
+#img1{
+    height: 70px;
+    margin: 15px;
+}
+#photo{
+  color: white;
+  margin-top: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.food-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.food-item {
+    width: 30%;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin: 5px;
+    transition: transform 0.2s;
+}
+
+.food-item img {
+    border-radius: 8px;
+    width: 100%;
+    height: 300px;
+} 
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: #131313;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 10px;
+  }  
+  
+  
+   
